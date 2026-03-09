@@ -1,4 +1,4 @@
-# CSE-UOI @ SemEval-2026 Task 6 — Code Deliver
+# CSE-UOI @ SemEval-2026 Task 6
 
 ## Mini Introduction
 This repository implements our SemEval-2026 Task 6 system for political interview clarity classification (`Clear Reply`, `Ambivalent`, `Clear Non-Reply`).  
