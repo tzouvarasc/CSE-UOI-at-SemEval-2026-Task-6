@@ -62,7 +62,7 @@ python code/dcg_stage2.py \
 ---
 
 ### 3) `code/debate_ablation/debate.py`
-APEX debate ablation (supports:
+Debate ablation (supports:
 - `--mode ultimate`: static weighted voting baseline
 - `--mode debate`: iterative cross-model debate on disagreements)
 
