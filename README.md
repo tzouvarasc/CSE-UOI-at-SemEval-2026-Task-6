@@ -105,7 +105,7 @@ python code/Hu_Debate_ablation/hu_debate.py \
 ---
 
 ### 5) `analysis/analysis.py`
-Offline comprehensive analysis (Sections A-H), no API calls.  
+Offline comprehensive analysis, no API calls.  
 Consumes Stage-2 detailed JSONs and optional debate/Hu artifacts.
 
 Main output:
