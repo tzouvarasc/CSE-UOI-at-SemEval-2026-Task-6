@@ -1,0 +1,1829 @@
+{
+  "A": {
+    "eval": {
+      "pre_dcg": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8121911798660818,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8543689320388349,
+            "recall": 0.7521367521367521,
+            "f1": 0.7999999999999999,
+            "tp": 88,
+            "fp": 15,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8055555555555556,
+            "recall": 0.8285714285714286,
+            "f1": 0.8169014084507044,
+            "tp": 29,
+            "fp": 7,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7653061224489796,
+            "recall": 0.8823529411764706,
+            "f1": 0.8196721311475409,
+            "tp": 75,
+            "fp": 23,
+            "fn": 10,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "post_dcg": {
+        "accuracy": 0.8438818565400844,
+        "macro_f1": 0.8505360710742478,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8225806451612904,
+            "recall": 0.8717948717948718,
+            "f1": 0.846473029045643,
+            "tp": 102,
+            "fp": 22,
+            "fn": 15,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.9354838709677419,
+            "recall": 0.8285714285714286,
+            "f1": 0.8787878787878788,
+            "tp": 29,
+            "fp": 2,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.8414634146341463,
+            "recall": 0.8117647058823529,
+            "f1": 0.8263473053892215,
+            "tp": 69,
+            "fp": 13,
+            "fn": 16,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "delta_f1": 0.038344891208165977
+    },
+    "test": {
+      "pre_dcg": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7940649344158116,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9195402298850575,
+            "recall": 0.7766990291262136,
+            "f1": 0.8421052631578948,
+            "tp": 160,
+            "fp": 14,
+            "fn": 46,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6407766990291263,
+            "recall": 0.8354430379746836,
+            "f1": 0.7252747252747253,
+            "tp": 66,
+            "fp": 37,
+            "fn": 13,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "post_dcg": {
+        "accuracy": 0.827922077922078,
+        "macro_f1": 0.8100374202069117,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8695652173913043,
+            "recall": 0.8737864077669902,
+            "f1": 0.8716707021791766,
+            "tp": 180,
+            "fp": 27,
+            "fn": 26,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8076923076923077,
+            "recall": 0.9130434782608695,
+            "f1": 0.8571428571428572,
+            "tp": 21,
+            "fp": 5,
+            "fn": 2,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.72,
+            "recall": 0.6835443037974683,
+            "f1": 0.7012987012987013,
+            "tp": 54,
+            "fp": 21,
+            "fn": 25,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "delta_f1": 0.01597248579110011
+    }
+  },
+  "B": {
+    "eval": {
+      "B1_grok_only": {
+        "accuracy": 0.8185654008438819,
+        "macro_f1": 0.8263772875467028,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.831858407079646,
+            "recall": 0.8034188034188035,
+            "f1": 0.817391304347826,
+            "tp": 94,
+            "fp": 19,
+            "fn": 23,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "tp": 30,
+            "fp": 5,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7865168539325843,
+            "recall": 0.8235294117647058,
+            "f1": 0.8045977011494253,
+            "tp": 70,
+            "fp": 19,
+            "fn": 15,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B2_gemini_only": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8083425346583241,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9021739130434783,
+            "recall": 0.7094017094017094,
+            "f1": 0.7942583732057417,
+            "tp": 83,
+            "fp": 9,
+            "fn": 34,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8000000000000002,
+            "tp": 28,
+            "fp": 7,
+            "fn": 7,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7363636363636363,
+            "recall": 0.9529411764705882,
+            "f1": 0.8307692307692307,
+            "tp": 81,
+            "fp": 29,
+            "fn": 4,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B3_ensemble_pre_dcg": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8121911798660818,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8543689320388349,
+            "recall": 0.7521367521367521,
+            "f1": 0.7999999999999999,
+            "tp": 88,
+            "fp": 15,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8055555555555556,
+            "recall": 0.8285714285714286,
+            "f1": 0.8169014084507044,
+            "tp": 29,
+            "fp": 7,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7653061224489796,
+            "recall": 0.8823529411764706,
+            "f1": 0.8196721311475409,
+            "tp": 75,
+            "fp": 23,
+            "fn": 10,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B4_full_system_dcg": {
+        "accuracy": 0.8438818565400844,
+        "macro_f1": 0.8505360710742478,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8225806451612904,
+            "recall": 0.8717948717948718,
+            "f1": 0.846473029045643,
+            "tp": 102,
+            "fp": 22,
+            "fn": 15,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.9354838709677419,
+            "recall": 0.8285714285714286,
+            "f1": 0.8787878787878788,
+            "tp": 29,
+            "fp": 2,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.8414634146341463,
+            "recall": 0.8117647058823529,
+            "f1": 0.8263473053892215,
+            "tp": 69,
+            "fp": 13,
+            "fn": 16,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B5_k1": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8151537498882632,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8348623853211009,
+            "recall": 0.7777777777777778,
+            "f1": 0.8053097345132744,
+            "tp": 91,
+            "fp": 18,
+            "fn": 26,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8108108108108109,
+            "recall": 0.8571428571428571,
+            "f1": 0.8333333333333334,
+            "tp": 30,
+            "fp": 7,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7802197802197802,
+            "recall": 0.8352941176470589,
+            "f1": 0.8068181818181818,
+            "tp": 71,
+            "fp": 20,
+            "fn": 14,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B5_k3": {
+        "accuracy": 0.8059071729957806,
+        "macro_f1": 0.8137692089098739,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8461538461538461,
+            "recall": 0.7521367521367521,
+            "f1": 0.7963800904977375,
+            "tp": 88,
+            "fp": 16,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8529411764705882,
+            "recall": 0.8285714285714286,
+            "f1": 0.8405797101449276,
+            "tp": 29,
+            "fp": 5,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7474747474747475,
+            "recall": 0.8705882352941177,
+            "f1": 0.8043478260869567,
+            "tp": 74,
+            "fp": 25,
+            "fn": 11,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B5_k5": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8121911798660818,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8543689320388349,
+            "recall": 0.7521367521367521,
+            "f1": 0.7999999999999999,
+            "tp": 88,
+            "fp": 15,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8055555555555556,
+            "recall": 0.8285714285714286,
+            "f1": 0.8169014084507044,
+            "tp": 29,
+            "fp": 7,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7653061224489796,
+            "recall": 0.8823529411764706,
+            "f1": 0.8196721311475409,
+            "tp": 75,
+            "fp": 23,
+            "fn": 10,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight0": {
+        "accuracy": 0.8185654008438819,
+        "macro_f1": 0.8263772875467028,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.831858407079646,
+            "recall": 0.8034188034188035,
+            "f1": 0.817391304347826,
+            "tp": 94,
+            "fp": 19,
+            "fn": 23,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "tp": 30,
+            "fp": 5,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7865168539325843,
+            "recall": 0.8235294117647058,
+            "f1": 0.8045977011494253,
+            "tp": 70,
+            "fp": 19,
+            "fn": 15,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight1": {
+        "accuracy": 0.8227848101265823,
+        "macro_f1": 0.8327950310559006,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.831858407079646,
+            "recall": 0.8034188034188035,
+            "f1": 0.817391304347826,
+            "tp": 94,
+            "fp": 19,
+            "fn": 23,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8823529411764706,
+            "recall": 0.8571428571428571,
+            "f1": 0.8695652173913043,
+            "tp": 30,
+            "fp": 4,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7888888888888889,
+            "recall": 0.8352941176470589,
+            "f1": 0.8114285714285714,
+            "tp": 71,
+            "fp": 19,
+            "fn": 14,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight2": {
+        "accuracy": 0.8227848101265823,
+        "macro_f1": 0.8305089560931264,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8440366972477065,
+            "recall": 0.7863247863247863,
+            "f1": 0.8141592920353982,
+            "tp": 92,
+            "fp": 17,
+            "fn": 25,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "tp": 30,
+            "fp": 5,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7849462365591398,
+            "recall": 0.8588235294117647,
+            "f1": 0.8202247191011236,
+            "tp": 73,
+            "fp": 20,
+            "fn": 12,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight3": {
+        "accuracy": 0.8270042194092827,
+        "macro_f1": 0.8337949580389661,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8454545454545455,
+            "recall": 0.7948717948717948,
+            "f1": 0.8193832599118943,
+            "tp": 93,
+            "fp": 17,
+            "fn": 24,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "tp": 30,
+            "fp": 5,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7934782608695652,
+            "recall": 0.8588235294117647,
+            "f1": 0.8248587570621468,
+            "tp": 73,
+            "fp": 19,
+            "fn": 12,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight4": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8121911798660818,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8543689320388349,
+            "recall": 0.7521367521367521,
+            "f1": 0.7999999999999999,
+            "tp": 88,
+            "fp": 15,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8055555555555556,
+            "recall": 0.8285714285714286,
+            "f1": 0.8169014084507044,
+            "tp": 29,
+            "fp": 7,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7653061224489796,
+            "recall": 0.8823529411764706,
+            "f1": 0.8196721311475409,
+            "tp": 75,
+            "fp": 23,
+            "fn": 10,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight5": {
+        "accuracy": 0.8016877637130801,
+        "macro_f1": 0.7983578731975025,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8380952380952381,
+            "recall": 0.7521367521367521,
+            "f1": 0.7927927927927928,
+            "tp": 88,
+            "fp": 17,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7941176470588235,
+            "recall": 0.7714285714285715,
+            "f1": 0.782608695652174,
+            "tp": 27,
+            "fp": 7,
+            "fn": 8,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7653061224489796,
+            "recall": 0.8823529411764706,
+            "f1": 0.8196721311475409,
+            "tp": 75,
+            "fp": 23,
+            "fn": 10,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B6_weight6": {
+        "accuracy": 0.810126582278481,
+        "macro_f1": 0.8083425346583241,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9021739130434783,
+            "recall": 0.7094017094017094,
+            "f1": 0.7942583732057417,
+            "tp": 83,
+            "fp": 9,
+            "fn": 34,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8000000000000002,
+            "tp": 28,
+            "fp": 7,
+            "fn": 7,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7363636363636363,
+            "recall": 0.9529411764705882,
+            "f1": 0.8307692307692307,
+            "tp": 81,
+            "fp": 29,
+            "fn": 4,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B7_evasion_majority": {
+        "accuracy": 0.8354430379746836,
+        "macro_f1": 0.840559342280936,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9072164948453608,
+            "recall": 0.7521367521367521,
+            "f1": 0.8224299065420562,
+            "tp": 88,
+            "fp": 9,
+            "fn": 29,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "tp": 30,
+            "fp": 5,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7619047619047619,
+            "recall": 0.9411764705882353,
+            "f1": 0.8421052631578947,
+            "tp": 80,
+            "fp": 25,
+            "fn": 5,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B7_clarity_10vote": {
+        "accuracy": 0.8185654008438819,
+        "macro_f1": 0.8239768074043762,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8490566037735849,
+            "recall": 0.7692307692307693,
+            "f1": 0.8071748878923767,
+            "tp": 90,
+            "fp": 16,
+            "fn": 27,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8529411764705882,
+            "recall": 0.8285714285714286,
+            "f1": 0.8405797101449276,
+            "tp": 29,
+            "fp": 5,
+            "fn": 6,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7731958762886598,
+            "recall": 0.8823529411764706,
+            "f1": 0.8241758241758242,
+            "tp": 75,
+            "fp": 22,
+            "fn": 10,
+            "support": 85
+          }
+        },
+        "n": 237
+      },
+      "B7_hidden_agreements": {
+        "evasion_agree": 168,
+        "evasion_disagree_clarity_agree": 37,
+        "evasion_disagree_clarity_disagree": 32
+      }
+    },
+    "test": {
+      "B1_grok_only": {
+        "accuracy": 0.7987012987012987,
+        "macro_f1": 0.783589732189172,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8870967741935484,
+            "recall": 0.8009708737864077,
+            "f1": 0.8418367346938775,
+            "tp": 165,
+            "fp": 21,
+            "fn": 41,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6483516483516484,
+            "recall": 0.7468354430379747,
+            "f1": 0.6941176470588236,
+            "tp": 59,
+            "fp": 32,
+            "fn": 20,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B2_gemini_only": {
+        "accuracy": 0.775974025974026,
+        "macro_f1": 0.7760832527088048,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9363057324840764,
+            "recall": 0.7135922330097088,
+            "f1": 0.8099173553719009,
+            "tp": 147,
+            "fp": 10,
+            "fn": 59,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.5833333333333334,
+            "recall": 0.8860759493670886,
+            "f1": 0.7035175879396985,
+            "tp": 70,
+            "fp": 50,
+            "fn": 9,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B3_ensemble_pre_dcg": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7940649344158116,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9195402298850575,
+            "recall": 0.7766990291262136,
+            "f1": 0.8421052631578948,
+            "tp": 160,
+            "fp": 14,
+            "fn": 46,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6407766990291263,
+            "recall": 0.8354430379746836,
+            "f1": 0.7252747252747253,
+            "tp": 66,
+            "fp": 37,
+            "fn": 13,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B4_full_system_dcg": {
+        "accuracy": 0.827922077922078,
+        "macro_f1": 0.8100374202069117,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8695652173913043,
+            "recall": 0.8737864077669902,
+            "f1": 0.8716707021791766,
+            "tp": 180,
+            "fp": 27,
+            "fn": 26,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8076923076923077,
+            "recall": 0.9130434782608695,
+            "f1": 0.8571428571428572,
+            "tp": 21,
+            "fp": 5,
+            "fn": 2,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.72,
+            "recall": 0.6835443037974683,
+            "f1": 0.7012987012987013,
+            "tp": 54,
+            "fp": 21,
+            "fn": 25,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B5_k1": {
+        "accuracy": 0.7987012987012987,
+        "macro_f1": 0.7845049581483691,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8913043478260869,
+            "recall": 0.7961165048543689,
+            "f1": 0.8410256410256409,
+            "tp": 164,
+            "fp": 20,
+            "fn": 42,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6451612903225806,
+            "recall": 0.759493670886076,
+            "f1": 0.6976744186046513,
+            "tp": 60,
+            "fp": 33,
+            "fn": 19,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B5_k3": {
+        "accuracy": 0.8084415584415584,
+        "macro_f1": 0.797880996597539,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9060773480662984,
+            "recall": 0.7961165048543689,
+            "f1": 0.8475452196382429,
+            "tp": 164,
+            "fp": 17,
+            "fn": 42,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7333333333333333,
+            "recall": 0.9565217391304348,
+            "f1": 0.8301886792452831,
+            "tp": 22,
+            "fp": 8,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6494845360824743,
+            "recall": 0.7974683544303798,
+            "f1": 0.7159090909090909,
+            "tp": 63,
+            "fp": 34,
+            "fn": 16,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B5_k5": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7940649344158116,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9195402298850575,
+            "recall": 0.7766990291262136,
+            "f1": 0.8421052631578948,
+            "tp": 160,
+            "fp": 14,
+            "fn": 46,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6407766990291263,
+            "recall": 0.8354430379746836,
+            "f1": 0.7252747252747253,
+            "tp": 66,
+            "fp": 37,
+            "fn": 13,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight0": {
+        "accuracy": 0.801948051948052,
+        "macro_f1": 0.7859411272995146,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8877005347593583,
+            "recall": 0.8058252427184466,
+            "f1": 0.8447837150127225,
+            "tp": 166,
+            "fp": 21,
+            "fn": 40,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6555555555555556,
+            "recall": 0.7468354430379747,
+            "f1": 0.698224852071006,
+            "tp": 59,
+            "fp": 31,
+            "fn": 20,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight1": {
+        "accuracy": 0.8181818181818182,
+        "macro_f1": 0.8054312340199608,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.890625,
+            "recall": 0.8300970873786407,
+            "f1": 0.8592964824120604,
+            "tp": 171,
+            "fp": 21,
+            "fn": 35,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7586206896551724,
+            "recall": 0.9565217391304348,
+            "f1": 0.8461538461538461,
+            "tp": 22,
+            "fp": 7,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6781609195402298,
+            "recall": 0.7468354430379747,
+            "f1": 0.7108433734939759,
+            "tp": 59,
+            "fp": 28,
+            "fn": 20,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight2": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7909397725726675,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9010989010989011,
+            "recall": 0.7961165048543689,
+            "f1": 0.845360824742268,
+            "tp": 164,
+            "fp": 18,
+            "fn": 42,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6526315789473685,
+            "recall": 0.7848101265822784,
+            "f1": 0.7126436781609196,
+            "tp": 62,
+            "fp": 33,
+            "fn": 17,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight3": {
+        "accuracy": 0.8084415584415584,
+        "macro_f1": 0.7933022898127832,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9016393442622951,
+            "recall": 0.8009708737864077,
+            "f1": 0.8483290488431876,
+            "tp": 165,
+            "fp": 18,
+            "fn": 41,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6595744680851063,
+            "recall": 0.7848101265822784,
+            "f1": 0.7167630057803469,
+            "tp": 62,
+            "fp": 32,
+            "fn": 17,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight4": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7940649344158116,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9195402298850575,
+            "recall": 0.7766990291262136,
+            "f1": 0.8421052631578948,
+            "tp": 160,
+            "fp": 14,
+            "fn": 46,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6407766990291263,
+            "recall": 0.8354430379746836,
+            "f1": 0.7252747252747253,
+            "tp": 66,
+            "fp": 37,
+            "fn": 13,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight5": {
+        "accuracy": 0.801948051948052,
+        "macro_f1": 0.7928487321821679,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9096045197740112,
+            "recall": 0.7815533980582524,
+            "f1": 0.8407310704960835,
+            "tp": 161,
+            "fp": 16,
+            "fn": 45,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.75,
+            "recall": 0.9130434782608695,
+            "f1": 0.8235294117647057,
+            "tp": 21,
+            "fp": 7,
+            "fn": 2,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6310679611650486,
+            "recall": 0.8227848101265823,
+            "f1": 0.7142857142857143,
+            "tp": 65,
+            "fp": 38,
+            "fn": 14,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B6_weight6": {
+        "accuracy": 0.775974025974026,
+        "macro_f1": 0.7760832527088048,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9363057324840764,
+            "recall": 0.7135922330097088,
+            "f1": 0.8099173553719009,
+            "tp": 147,
+            "fp": 10,
+            "fn": 59,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.5833333333333334,
+            "recall": 0.8860759493670886,
+            "f1": 0.7035175879396985,
+            "tp": 70,
+            "fp": 50,
+            "fn": 9,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B7_evasion_majority": {
+        "accuracy": 0.7954545454545454,
+        "macro_f1": 0.7820205650394328,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9333333333333333,
+            "recall": 0.7475728155339806,
+            "f1": 0.8301886792452831,
+            "tp": 154,
+            "fp": 11,
+            "fn": 52,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.6666666666666666,
+            "recall": 0.9565217391304348,
+            "f1": 0.7857142857142856,
+            "tp": 22,
+            "fp": 11,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6272727272727273,
+            "recall": 0.8734177215189873,
+            "f1": 0.7301587301587302,
+            "tp": 69,
+            "fp": 41,
+            "fn": 10,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B7_clarity_10vote": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7904510055933471,
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.9055555555555556,
+            "recall": 0.7912621359223301,
+            "f1": 0.844559585492228,
+            "tp": 163,
+            "fp": 17,
+            "fn": 43,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7241379310344828,
+            "recall": 0.9130434782608695,
+            "f1": 0.8076923076923076,
+            "tp": 21,
+            "fp": 8,
+            "fn": 2,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6464646464646465,
+            "recall": 0.810126582278481,
+            "f1": 0.7191011235955057,
+            "tp": 64,
+            "fp": 35,
+            "fn": 15,
+            "support": 79
+          }
+        },
+        "n": 308
+      },
+      "B7_hidden_agreements": {
+        "evasion_agree": 205,
+        "evasion_disagree_clarity_agree": 53,
+        "evasion_disagree_clarity_disagree": 50
+      },
+      "B8_debate": {
+        "accuracy": 0.8051948051948052,
+        "macro_f1": 0.7900903288500188
+      },
+      "B9_hu_debate": {
+        "instance_accuracy": 0.775974025974026,
+        "macro_f1": 0.7655584718576844,
+        "classes": [
+          "Ambivalent",
+          "Clear Non-Reply",
+          "Clear Reply"
+        ],
+        "per_class": {
+          "Ambivalent": {
+            "precision": 0.8914285714285715,
+            "recall": 0.7572815533980582,
+            "f1": 0.8188976377952756,
+            "tp": 156,
+            "fp": 19,
+            "fn": 50
+          },
+          "Clear Non-Reply": {
+            "precision": 0.6875,
+            "recall": 0.9565217391304348,
+            "f1": 0.8,
+            "tp": 22,
+            "fp": 10,
+            "fn": 1
+          },
+          "Clear Reply": {
+            "precision": 0.6039603960396039,
+            "recall": 0.7721518987341772,
+            "f1": 0.6777777777777778,
+            "tp": 61,
+            "fp": 40,
+            "fn": 18
+          }
+        },
+        "prediction_distribution": {
+          "Ambivalent": 175,
+          "Clear Reply": 101,
+          "Clear Non-Reply": 32
+        }
+      }
+    }
+  },
+  "C": {
+    "eval": {
+      "C1": {
+        "agree_n": 205,
+        "agree_acc": 0.8634146341463415,
+        "disagree_n": 32,
+        "disagree_acc": 0.46875
+      },
+      "C2": {
+        "('Ambivalent', 'Clear Non-Reply')": 12,
+        "('Ambivalent', 'Clear Reply')": 32,
+        "('Clear Non-Reply', 'Clear Reply')": 1
+      },
+      "C3": {
+        "Claims ignorance": {
+          "grok_acc": 1.0,
+          "gem_acc": 0.8,
+          "n": 10,
+          "winner": "Grok"
+        },
+        "Clarification": {
+          "grok_acc": 1.0,
+          "gem_acc": 1.0,
+          "n": 9,
+          "winner": "Tied"
+        },
+        "Declining to answer": {
+          "grok_acc": 0.65,
+          "gem_acc": 0.7,
+          "n": 20,
+          "winner": "Gemini"
+        },
+        "Dodging": {
+          "grok_acc": 0.3617021276595745,
+          "gem_acc": 0.574468085106383,
+          "n": 94,
+          "winner": "Gemini"
+        },
+        "Explicit": {
+          "grok_acc": 0.8809523809523809,
+          "gem_acc": 0.9761904761904762,
+          "n": 84,
+          "winner": "Gemini"
+        },
+        "General": {
+          "grok_acc": 0.631578947368421,
+          "gem_acc": 0.5789473684210527,
+          "n": 19,
+          "winner": "Grok"
+        },
+        "Implicit": {
+          "grok_acc": 0.5217391304347826,
+          "gem_acc": 0.5652173913043478,
+          "n": 23,
+          "winner": "Gemini"
+        },
+        "Partial/half-answer": {
+          "grok_acc": 0.08695652173913043,
+          "gem_acc": 0.2608695652173913,
+          "n": 23,
+          "winner": "Gemini"
+        }
+      },
+      "C4": {
+        "grok_dist": {
+          "Explicit": 89,
+          "Declining to answer": 12,
+          "Dodging": 27,
+          "General": 38,
+          "Claims ignorance": 14,
+          "Clarification": 9,
+          "Implicit": 40,
+          "Deflection": 6,
+          "Partial/half-answer": 2
+        },
+        "gem_dist": {
+          "Explicit": 110,
+          "Declining to answer": 15,
+          "General": 18,
+          "Claims ignorance": 10,
+          "Clarification": 10,
+          "Dodging": 46,
+          "Implicit": 24,
+          "Deflection": 1,
+          "Partial/half-answer": 3
+        },
+        "gold_dist": {
+          "Explicit": 84,
+          "Declining to answer": 20,
+          "Dodging": 66,
+          "Implicit": 17,
+          "Claims ignorance": 6,
+          "Clarification": 9,
+          "Partial/half-answer": 18,
+          "General": 17
+        }
+      },
+      "C5": {
+        "grok": {
+          "Ambivalent": {
+            "precision": 0.831858407079646,
+            "recall": 0.8034188034188035,
+            "f1": 0.817391304347826,
+            "tp": 94,
+            "fp": 19,
+            "fn": 23,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "tp": 30,
+            "fp": 5,
+            "fn": 5,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7865168539325843,
+            "recall": 0.8235294117647058,
+            "f1": 0.8045977011494253,
+            "tp": 70,
+            "fp": 19,
+            "fn": 15,
+            "support": 85
+          }
+        },
+        "gemini": {
+          "Ambivalent": {
+            "precision": 0.9021739130434783,
+            "recall": 0.7094017094017094,
+            "f1": 0.7942583732057417,
+            "tp": 83,
+            "fp": 9,
+            "fn": 34,
+            "support": 117
+          },
+          "Clear Non-Reply": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8000000000000002,
+            "tp": 28,
+            "fp": 7,
+            "fn": 7,
+            "support": 35
+          },
+          "Clear Reply": {
+            "precision": 0.7363636363636363,
+            "recall": 0.9529411764705882,
+            "f1": 0.8307692307692307,
+            "tp": 81,
+            "fp": 29,
+            "fn": 4,
+            "support": 85
+          }
+        }
+      },
+      "C6": {
+        "both_right": 135,
+        "grok_only": 12,
+        "gem_only": 38,
+        "both_wrong": 52
+      },
+      "C7": {
+        "oracle": 32,
+        "actual": 15,
+        "gap": 17,
+        "n_disagree": 32
+      },
+      "C8": "computed",
+      "C9": "computed",
+      "C10": "computed",
+      "C13": {
+        "fixed_5_4": {
+          "correct": 15,
+          "total": 32
+        },
+        "always_grok": {
+          "correct": 17,
+          "total": 32
+        },
+        "always_gemini": {
+          "correct": 15,
+          "total": 32
+        },
+        "higher_cons": {
+          "correct": 17,
+          "total": 32
+        },
+        "cons_weighted": {
+          "correct": 16,
+          "total": 32
+        },
+        "oracle": {
+          "correct": 32,
+          "total": 32
+        }
+      },
+      "C14": {
+        "agree+high": {
+          "correct": 134,
+          "total": 151
+        },
+        "agree+medium": {
+          "correct": 40,
+          "total": 50
+        },
+        "disagree+medium": {
+          "correct": 8,
+          "total": 17
+        },
+        "agree+low": {
+          "correct": 3,
+          "total": 4
+        },
+        "disagree+low": {
+          "correct": 1,
+          "total": 3
+        },
+        "disagree+high": {
+          "correct": 6,
+          "total": 12
+        }
+      },
+      "C15": {
+        "cr_triggered": 0,
+        "vote_changes": 0
+      }
+    },
+    "test": {
+      "C1": {
+        "agree_n": 258,
+        "agree_acc": 0.8449612403100775,
+        "disagree_n": 50,
+        "disagree_acc": 0.6
+      },
+      "C2": {
+        "('Ambivalent', 'Clear Reply')": 50,
+        "('Ambivalent', 'Clear Non-Reply')": 10
+      },
+      "C3": {
+        "Claims ignorance": {
+          "grok_acc": 0.8666666666666667,
+          "gem_acc": 0.9333333333333333,
+          "n": 15,
+          "winner": "Gemini"
+        },
+        "Clarification": {
+          "grok_acc": 1.0,
+          "gem_acc": 1.0,
+          "n": 4,
+          "winner": "Tied"
+        },
+        "Declining to answer": {
+          "grok_acc": 0.8235294117647058,
+          "gem_acc": 0.8823529411764706,
+          "n": 17,
+          "winner": "Gemini"
+        },
+        "Deflection": {
+          "grok_acc": 0.6470588235294118,
+          "gem_acc": 0.49019607843137253,
+          "n": 51,
+          "winner": "Grok"
+        },
+        "Dodging": {
+          "grok_acc": 0.53125,
+          "gem_acc": 0.53125,
+          "n": 96,
+          "winner": "Tied"
+        },
+        "Explicit": {
+          "grok_acc": 0.7739130434782608,
+          "gem_acc": 0.8608695652173913,
+          "n": 115,
+          "winner": "Gemini"
+        },
+        "General": {
+          "grok_acc": 0.6371681415929203,
+          "gem_acc": 0.6106194690265486,
+          "n": 113,
+          "winner": "Grok"
+        },
+        "Implicit": {
+          "grok_acc": 0.7474747474747475,
+          "gem_acc": 0.6666666666666666,
+          "n": 99,
+          "winner": "Grok"
+        },
+        "Partial/half-answer": {
+          "grok_acc": 0.7142857142857143,
+          "gem_acc": 0.6428571428571429,
+          "n": 14,
+          "winner": "Grok"
+        }
+      },
+      "C4": {
+        "grok_dist": {
+          "General": 39,
+          "Deflection": 16,
+          "Dodging": 28,
+          "Implicit": 100,
+          "Explicit": 91,
+          "Declining to answer": 14,
+          "Claims ignorance": 13,
+          "Partial/half-answer": 3,
+          "Clarification": 4
+        },
+        "gem_dist": {
+          "Dodging": 43,
+          "Deflection": 4,
+          "Implicit": 76,
+          "General": 19,
+          "Partial/half-answer": 15,
+          "Explicit": 120,
+          "Declining to answer": 17,
+          "Claims ignorance": 10,
+          "Clarification": 4
+        },
+        "gold_dist": {
+          "Dodging": 58,
+          "Deflection": 30,
+          "Explicit": 106,
+          "General": 29,
+          "Implicit": 54,
+          "Declining to answer": 10,
+          "Partial/half-answer": 8,
+          "Claims ignorance": 9,
+          "Clarification": 4
+        }
+      },
+      "C5": {
+        "grok": {
+          "Ambivalent": {
+            "precision": 0.8870967741935484,
+            "recall": 0.8009708737864077,
+            "f1": 0.8418367346938775,
+            "tp": 165,
+            "fp": 21,
+            "fn": 41,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.6483516483516484,
+            "recall": 0.7468354430379747,
+            "f1": 0.6941176470588236,
+            "tp": 59,
+            "fp": 32,
+            "fn": 20,
+            "support": 79
+          }
+        },
+        "gemini": {
+          "Ambivalent": {
+            "precision": 0.9363057324840764,
+            "recall": 0.7135922330097088,
+            "f1": 0.8099173553719009,
+            "tp": 147,
+            "fp": 10,
+            "fn": 59,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.7096774193548387,
+            "recall": 0.9565217391304348,
+            "f1": 0.8148148148148149,
+            "tp": 22,
+            "fp": 9,
+            "fn": 1,
+            "support": 23
+          },
+          "Clear Reply": {
+            "precision": 0.5833333333333334,
+            "recall": 0.8860759493670886,
+            "f1": 0.7035175879396985,
+            "tp": 70,
+            "fp": 50,
+            "fn": 9,
+            "support": 79
+          }
+        }
+      },
+      "C6": {
+        "both_right": 176,
+        "grok_only": 30,
+        "gem_only": 28,
+        "both_wrong": 74
+      },
+      "C7": {
+        "oracle": 49,
+        "actual": 30,
+        "gap": 19,
+        "n_disagree": 50
+      },
+      "C8": "computed",
+      "C9": "computed",
+      "C10": "computed",
+      "C11": {
+        "unanimous": {
+          "n": 224,
+          "grok_cl_correct": 194,
+          "gem_cl_correct": 180,
+          "ens_correct": 189,
+          "grok_ev_correct": 143,
+          "gem_ev_correct": 134,
+          "models_agree": 196
+        },
+        "majority": {
+          "n": 82,
+          "grok_cl_correct": 51,
+          "gem_cl_correct": 58,
+          "ens_correct": 58,
+          "grok_ev_correct": 61,
+          "gem_ev_correct": 68,
+          "models_agree": 60
+        },
+        "split": {
+          "n": 2,
+          "grok_cl_correct": 1,
+          "gem_cl_correct": 1,
+          "ens_correct": 1,
+          "grok_ev_correct": 2,
+          "gem_ev_correct": 2,
+          "models_agree": 2
+        }
+      },
+      "C13": {
+        "fixed_5_4": {
+          "correct": 30,
+          "total": 50
+        },
+        "always_grok": {
+          "correct": 28,
+          "total": 50
+        },
+        "always_gemini": {
+          "correct": 21,
+          "total": 50
+        },
+        "higher_cons": {
+          "correct": 25,
+          "total": 50
+        },
+        "cons_weighted": {
+          "correct": 28,
+          "total": 50
+        },
+        "oracle": {
+          "correct": 49,
+          "total": 50
+        }
+      },
+      "C14": {
+        "agree+medium": {
+          "correct": 57,
+          "total": 68
+        },
+        "agree+high": {
+          "correct": 155,
+          "total": 183
+        },
+        "disagree+medium": {
+          "correct": 17,
+          "total": 28
+        },
+        "disagree+low": {
+          "correct": 1,
+          "total": 5
+        },
+        "disagree+high": {
+          "correct": 12,
+          "total": 17
+        },
+        "agree+low": {
+          "correct": 6,
+          "total": 7
+        }
+      },
+      "C15": {
+        "cr_triggered": 0,
+        "vote_changes": 0
+      }
+    }
+  },
+  "D": {
+    "debate_f1": 0.7900903288500188,
+    "s0_f1": 0.7940649344158116,
+    "triggered": 50,
+    "helped": 8,
+    "hurt": 8
+  },
+  "E": {
+    "s0_f1": 0.7940649344158116,
+    "hu_f1": 0.7655584718576844,
+    "hu_r0_f1": 0.7772555679131936
+  },
+  "F": {
+    "eval": {
+      "F1": {
+        "Clear Reply": 85,
+        "Clear Non-Reply": 35,
+        "Ambivalent": 117
+      },
+      "F3": 28
+    },
+    "test": {
+      "F1": {
+        "Ambivalent": 206,
+        "Clear Reply": 79,
+        "Clear Non-Reply": 23
+      },
+      "F3": 39
+    }
+  },
+  "G": {
+    "eval": {},
+    "test": {}
+  },
+  "H": {
+    "eval": {
+      "avg_thoughts": 1636.0962025316455
+    },
+    "test": {
+      "avg_thoughts": 1890.1032467532468
+    }
+  }
+}

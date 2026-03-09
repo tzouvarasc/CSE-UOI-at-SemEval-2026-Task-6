@@ -1,0 +1,154 @@
+{
+  "has_gold_labels": true,
+  "samples_with_gold": 308,
+  "samples_processed": 308,
+  "evasion": {
+    "instance_accuracy": 0.6623376623376623,
+    "macro_f1": 0.5994070036122181,
+    "classes": [
+      "Claims ignorance",
+      "Clarification",
+      "Declining to answer",
+      "Deflection",
+      "Dodging",
+      "Explicit",
+      "General",
+      "Implicit",
+      "Partial/half-answer"
+    ],
+    "per_class": {
+      "Claims ignorance": {
+        "precision": 0.7142857142857143,
+        "recall": 0.8333333333333334,
+        "f1": 0.7692307692307692,
+        "tp": 10,
+        "fp": 4,
+        "fn": 2
+      },
+      "Clarification": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "Declining to answer": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8,
+        "f1": 0.8275862068965518,
+        "tp": 12,
+        "fp": 2,
+        "fn": 3
+      },
+      "Deflection": {
+        "precision": 0.5625,
+        "recall": 0.3103448275862069,
+        "f1": 0.4,
+        "tp": 9,
+        "fp": 7,
+        "fn": 20
+      },
+      "Dodging": {
+        "precision": 0.7916666666666666,
+        "recall": 0.296875,
+        "f1": 0.4318181818181819,
+        "tp": 19,
+        "fp": 5,
+        "fn": 45
+      },
+      "Explicit": {
+        "precision": 0.7425742574257426,
+        "recall": 0.7575757575757576,
+        "f1": 0.75,
+        "tp": 75,
+        "fp": 26,
+        "fn": 24
+      },
+      "General": {
+        "precision": 0.6428571428571429,
+        "recall": 0.4090909090909091,
+        "f1": 0.5000000000000001,
+        "tp": 27,
+        "fp": 15,
+        "fn": 39
+      },
+      "Implicit": {
+        "precision": 0.5529411764705883,
+        "recall": 0.5949367088607594,
+        "f1": 0.5731707317073171,
+        "tp": 47,
+        "fp": 38,
+        "fn": 32
+      },
+      "Partial/half-answer": {
+        "precision": 0.125,
+        "recall": 0.16666666666666666,
+        "f1": 0.14285714285714288,
+        "tp": 1,
+        "fp": 7,
+        "fn": 5
+      }
+    },
+    "prediction_distribution": {
+      "General": 42,
+      "Deflection": 16,
+      "Partial/half-answer": 8,
+      "Implicit": 85,
+      "Dodging": 24,
+      "Explicit": 101,
+      "Claims ignorance": 14,
+      "Declining to answer": 14,
+      "Clarification": 4
+    }
+  },
+  "clarity": {
+    "instance_accuracy": 0.775974025974026,
+    "macro_f1": 0.7655584718576844,
+    "classes": [
+      "Ambivalent",
+      "Clear Non-Reply",
+      "Clear Reply"
+    ],
+    "per_class": {
+      "Ambivalent": {
+        "precision": 0.8914285714285715,
+        "recall": 0.7572815533980582,
+        "f1": 0.8188976377952756,
+        "tp": 156,
+        "fp": 19,
+        "fn": 50
+      },
+      "Clear Non-Reply": {
+        "precision": 0.6875,
+        "recall": 0.9565217391304348,
+        "f1": 0.8,
+        "tp": 22,
+        "fp": 10,
+        "fn": 1
+      },
+      "Clear Reply": {
+        "precision": 0.6039603960396039,
+        "recall": 0.7721518987341772,
+        "f1": 0.6777777777777778,
+        "tp": 61,
+        "fp": 40,
+        "fn": 18
+      }
+    },
+    "prediction_distribution": {
+      "Ambivalent": 175,
+      "Clear Reply": 101,
+      "Clear Non-Reply": 32
+    }
+  },
+  "config": {
+    "n_agents": 7,
+    "max_rounds": 10,
+    "temperature": 1.0,
+    "max_model_length": 16000,
+    "ks_threshold": 0.05,
+    "ks_consecutive": 2,
+    "grok_model": "grok-4-1-fast-reasoning"
+  }
+}
