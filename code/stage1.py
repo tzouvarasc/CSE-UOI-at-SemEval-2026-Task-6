@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Strategy:
 1. Run both Grok and Gemini classifiers with k=5 self-consistency
@@ -142,7 +141,7 @@ class GeminiClient:
         self.thinking_level = thinking_level
 
     def chat(self, system_prompt: str, user_prompt: str,
-             max_tokens: int = 1500, temperature: float = 1.0,
+             max_tokens: int = 15000, temperature: float = 1.0,
              return_meta: bool = False):
 
         last_error = None
@@ -619,10 +618,7 @@ def compute_vote_margin(weighted_votes: Dict[str, float]) -> float:
     return float(top1 - top2)
 
 
-# ============================================================================
 # Base Classifier (used by both Grok and Gemini)
-# ============================================================================
-
 class BaseAPEXClassifier:
     """Base classifier with self-consistency."""
     
@@ -765,9 +761,7 @@ ANSWER: {answer}"""
         return primary_label, clarity_label, normalized_confidence, metadata
 
 
-# ============================================================================
-# APEX Ultimate Ensemble Classifier
-# ============================================================================
+# Ultimate Ensemble Classifier
 
 class APEXUltimateClassifier:
     """
@@ -1334,3 +1328,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
